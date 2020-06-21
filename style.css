@@ -1,4 +1,4 @@
-/* Fonts Declarations*/
+/* Fonts Declarations */
 @font-face {
     font-family:'Ballz';
     src: url('Ballz.eot');
@@ -11,14 +11,14 @@
 }
 
 
-/*shhh!!!!*/
+/* shhh!!!! */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/*What do you expect me to say here too?*/
+/* What do you expect me to say here too? */
 html{
 	margin: 0;
 	padding: 0;
@@ -26,44 +26,82 @@ html{
 	width:100%;
 }
 
-/*The body of the page.Nothing else*/
+/* The body of the page.Nothing else */
 body{
     background-color: rgb(150, 150, 150);
     min-height: 100%;
     color: black;
 }
 
-/* The container for all in-page elements*/
+/* The container for all in-page elements */
 #page_container{
     display: flex;
     flex-direction: column;
 }
 
-/*The topmost navigation bar on the homepage*/
+/* The topmost navigation bar on the homepage */
 #home_navbar{
     color: blanchedalmond;
     background-color: black;
     margin-top: 0;
     width: 100%;
-    min-height: 5rem;
+    max-height: 4rem;
 }
 
-/* The logo's text*/
+/* The logo's text  */
 #logo_text{
-    font-size: 4em;
+    font-size: 50px;
     font-family: 'Ballz';
     color: rgb(0, 144, 201);
     padding-top: 2.5px;
+    margin-left: 3rem;
     z-index:-1;
+    display: inline;
 }
 
-/*The links on the navbar*/
+/* The links on the navbar  */
 #nav_bar_links_ul{
+    float: right;
     list-style-type:none;
     margin: 0;
     padding: 0;
+    overflow: hidden;
+    background-color: rgba(150, 150, 150, 0.185);
+
 }
 
+/* The properties for each 'li' */
 .nav_bar_links_list{
-    display: inline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    border-right: 1px solid #bbb;
+    float: left;
+    font-size: 1rem;
+    font-weight: 600;
+       
 }
+
+/*  The properties for the last item  in the 'li' list  */
+.nav_bar_links_list:last-child{
+    border-right: none;
+}
+
+/* The properties for the links and lists */
+.nav_bar_links_list .nav_bar_links{
+    display: block;
+    padding: 1.4em 1.75em 1.4em 1.75em;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+/*  The properties applied when you hover on an element
+ in the nav bar  */
+.nav_bar_links:hover{
+    background-color:rgb(0, 144, 201);
+}
+
+
+
+
+
+/*   It's  media queries time !!!!   */
