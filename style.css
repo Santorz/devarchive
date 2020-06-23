@@ -2,10 +2,13 @@
 @font-face {
     font-family:'Abys';
     src:url('Abys.eot');
-	src:url('fonts/Abys/Abys.eot?#iefix') format('embedded-opentype'),
+    src:url('fonts/Abys/Abys.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Abys/Abys.ttf Heavy.ttf') format('truetype'),
+        url('fonts/Abys/Abys.otf Heavy.otf') format('opentype'),
 		url('fonts/Abys/Abys.woff2') format('woff2'),
 		url('fonts/Abys/Abys.woff') format('woff'),
-		url('fonts/Abys/Abys.svg#Abys') format('svg');
+        url('fonts/Abys/Abys.svg#Abys') format('svg');
+        
 }
 
 
