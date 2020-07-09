@@ -218,10 +218,11 @@ a{
 /*   It's  media queries time !!!!   */
 
 /* Smartphone media query*/
-@media only screen  and 
-(pointer:coarse), (hover:none), (hover:on-demand){
+@media  (pointer:coarse), (hover:none), (hover:on-demand){
 
     #nav-bar-links-ul{
+        position: relative;
+        display: none;
         float: none;
         background-color: rgb(0, 0, 0);
     }   
@@ -252,7 +253,7 @@ a{
     /*  Adjusting some fonts here bruh... */
     #nav-bar-links-ul{
         position: relative;
-        display: block;
+        display: none;
         float: none;
         background-color: rgb(0, 0, 0);
     } 
