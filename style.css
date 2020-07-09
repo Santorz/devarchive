@@ -202,9 +202,8 @@ a{
 
 /* The last guy on the page*/
 #copyright{
-    position: relative;
     text-align: center;
-    background-color: honeydew;
+    background-color: rgb(252, 252, 252);
 }
 
 #copyright footer{
@@ -234,7 +233,7 @@ a{
     }
 
     #logo-text{
-        font-size: 2.5rem;
+        font-size: 2.1rem;
         margin-left: 5%;
     }
 
@@ -243,11 +242,12 @@ a{
 
 /* Some Tablet phones / iPads */
 @media only screen and (min-width: 771px) and 
- (max-width : 1120px) and 
- (pointer:coarse), (hover:none), (hover:on-demand){
+ (max-width : 1120px) and (pointer:coarse), (hover:none),
+ (hover:on-demand){
     
     #logo-text{
-        margin-left: 5%;
+        font-size:2.2rem;
+        margin-left: 5% ;
     }
 
     /*  Adjusting some fonts here bruh... */
