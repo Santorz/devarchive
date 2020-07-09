@@ -162,6 +162,7 @@ a{
 */
 
 #bg-video-with-text {
+    width: 100%;
     position: relative;
     text-align: center;
     overflow: hidden;
@@ -170,7 +171,7 @@ a{
 
 
 #bg-video {
-    filter: blur(0.17rem);
+    filter: blur(0.1rem);
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -240,7 +241,7 @@ a{
 
     }
 
-    #bg-video video{
+    #bg-video-with-text{
         height: 80vh;
     }
 
@@ -271,7 +272,7 @@ a{
 
     }
     
-    #bg-video video{
+    #bg-video-with-text{
         height: 80vh;
     }
 
