@@ -220,12 +220,12 @@ a{
     z-index: 2;
     position: relative;
     font-family: 'DOCK11';
-    letter-spacing: 0.7vw;
-    font-size: 4vw;
+    letter-spacing: 0.2rem;
+    font-size: 3.5rem;
     color: rgb(207, 207, 207);
 }
 .emboss-text{
-    
+
 }
 
 
