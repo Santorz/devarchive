@@ -162,6 +162,7 @@ a{
 */
 
 #bg-video-with-text {
+    position: relative;
     text-align: center;
     overflow: hidden;
 }
