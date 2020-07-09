@@ -270,7 +270,10 @@ a{
         background-color: rgba(150, 150, 150, 0.342);
 
     }
-  
+    
+    #bg-video video{
+        height: 80vh;
+    }
 
  }
 
