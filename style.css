@@ -207,11 +207,12 @@ a{
     width: 100%;
     position: absolute;
     left: 50%;
-    top: 45vh;
+    top: 50vh;
     z-index: 2;
     user-select: none;
     margin-left: -50% ;
     margin-top: -8rem;
+    background-color: rgba(0, 0, 0, 0.856);
 }
 
 
@@ -221,8 +222,9 @@ a{
     position: relative;
     font-family: 'DOCK11';
     letter-spacing: 0.2rem;
-    font-size: 3.5rem;
+    font-size: 4em;
     color: rgb(207, 207, 207);
+    font-weight: 300;
 }
 .emboss-text{
 
@@ -296,6 +298,15 @@ a{
         object-fit: cover;
         background-position: left;
     }
+
+    .emboss-text{
+        font-size: 3rem;
+    }
+
+    .text-on-video{
+        top: 43vh;
+    }
+
 }
 
 
