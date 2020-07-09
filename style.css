@@ -227,7 +227,6 @@ a{
         margin-left: 5% ;
     }
 
-    /*  Adjusting some fonts here bruh... */
     #nav-bar-links-ul{
         position: relative;
         display: none;
@@ -241,10 +240,25 @@ a{
 
     }
 
-    #bg-video-with-text{
-        height: 20rem;
+    #bg-video {
+        height: auto;
+        width: 100%;
     }
 
+    #bg-video::before{
+        height: inherit;
+        width: 100%;
+    }
+
+    #bg-video-with-text{
+        height: auto;
+        width: 100%;
+    }
+
+    #bg-video video{
+        height: 33rem;
+        object-fit: cover;
+    }
 }
 
 
