@@ -16,12 +16,12 @@
 @font-face {
     font-family:'DOCK11';
     src: url('DOCK11 Heavy.eot');
-	src: url('fonts/dock11/Heavy.eot?#iefix') format('embedded-opentype'),
-		 url('fonts/dock11/Heavy.woff2') format('woff2'),
-		 url('fonts/dock11/Heavy.woff') format('woff'),
-		 url('fonts/dock11/Heavy.ttf') format('truetype'),
-		 url('fonts/dock11/Heavy.otf') format('opentype'),
-		 url('fonts/dock11/Heavy.svg#DOCK11 Heavy') format('svg');
+	src: url('fonts/dock11/DOCK11 Heavy.eot?#iefix') format('embedded-opentype'),
+		 url('fonts/dock11/DOCK11 Heavy.woff2') format('woff2'),
+		 url('fonts/dock11/DOCK11 Heavy.woff') format('woff'),
+		 url('fonts/dock11/DOCK11 Heavy.ttf') format('truetype'),
+		 url('fonts/dock11/DOCK11 Heavy.otf') format('opentype'),
+		 url('fonts/dock11/DOCK11 Heavy.svg#DOCK11 Heavy') format('svg');
     font-weight: 900;
     font-style: normal;
     font-stretch: normal;
@@ -201,6 +201,27 @@ a{
  /*Thanks for your co-operation  */
 
 
+.text-on-video{
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 27rem;
+    z-index: 2;
+    user-select: none;
+    margin-left: -50% ;
+    margin-top: -8rem;
+}
+
+.emboss-text{
+    z-index: 2;
+    position: relative;
+    font-family: 'DOCK11';
+    letter-spacing: 1rem;
+    font-size: 5rem;
+
+}
 
 
 /* The last guy on the page*/
@@ -229,7 +250,7 @@ a{
 {
 
     #logo-text{
-        font-size:3rem;
+        font-size:1.2rem;
         margin-left: 1% ;
     }
 
@@ -275,7 +296,7 @@ a{
  (hover:on-demand){
     
     #logo-text{
-        font-size: 4rem;
+        font-size: 1.5rem;
         margin-left: 2% ;
     }
 
@@ -293,7 +314,7 @@ a{
 
     }
     
-    #bg-video-with-text{
+    #bg-video video{
         height: 80vh;
         object-fit: cover;
     }
