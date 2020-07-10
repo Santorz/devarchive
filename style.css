@@ -214,6 +214,8 @@ a{
     border-radius: .7rem;
     margin-top: -8rem;
     background-color: rgba(0, 0, 0, 0.97);
+    border: .4rem groove rgb(226, 226, 226);
+
 }
 
 
