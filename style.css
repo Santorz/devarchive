@@ -189,11 +189,11 @@ a{
     z-index:1;
     background: rgb(0,102,142);
     background: linear-gradient(-180deg, 
-    rgb(0, 40, 56) 11%, 
-    rgb(0, 36, 52) 22%, rgb(0, 32, 48) 33%, 
-    rgb(0, 28, 44) 44%, rgb(0, 24, 40) 55%,
-    rgb(0, 20, 36) 66%, rgb(0, 16, 32) 77%, 
-    rgb(0, 12, 28) 88%, rgba(0,0,0,1) 99%); 
+    rgb(0, 23, 32) 11%, 
+    rgb(0, 21, 31) 22%, rgb(0, 19, 29) 33%, 
+    rgb(0, 17, 27) 44%, rgb(0, 15, 26) 55%,
+    rgb(0, 10, 19) 66%, rgb(0, 7, 14) 77%, 
+    rgb(0, 5, 12) 88%, rgba(0,3,7) 99%); 
     opacity: .57;
 }
   
@@ -203,14 +203,14 @@ a{
 
 .text-on-video{
     text-align: center;
-    padding: 2rem;
+    padding: .5vw;
     width: 70vw;
     position: absolute;
     left: 50%;
+    margin-left: -35vw;
     top: 50vh;
     z-index: 2;
     user-select: none;
-    margin-left: -35% ;
     border-radius: .7rem;
     margin-top: -8rem;
     background-color: rgba(0, 0, 0, 0.97);
@@ -219,22 +219,22 @@ a{
 
 /* THIS IS JUST FOR THE 3D TEXT */
 .emboss-text{
+    padding: 2vw;
+    white-space: none;
     z-index: 2;
     position: relative;
     font-family: 'DOCK11';
     letter-spacing: 0.2rem;
     font-size: 4em;
-    color: rgb(207, 207, 207);
-    text-shadow: 0rem 0rem 8rem rgba(0, 124, 206, 0.2);
+    color: rgb(255, 255, 255);
+    text-shadow: 0rem 0rem 4rem rgb(0, 124, 206);
+    -webkit-text-fill-color: rgb(255, 255, 255);
+    -webkit-text-stroke: rgb(0, 171, 238);    ;
+    -webkit-text-stroke-width: .085rem;
 
-     animation: cycle 1.5s linear infinite;
 }
 @keyframes cycle{ 
-    0%{text-shadow: 0rem 0rem 8rem rgba(0, 122, 204, 0.4);}
-   20%{text-shadow: 0rem 0rem 8rem rgba(120, 212, 0, 0.6);}
-   40%{text-shadow: 0rem 0rem 8rem rgba(255, 28, 255, 0.7);}
-   60%{text-shadow: 0rem 0rem 8rem rgba(255, 55, 55, 0.8);}
-   80%{text-shadow: 0rem 0rem 8rem rgba(0, 143, 238, 0.9);}
+    
   }
 
 
