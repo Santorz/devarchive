@@ -215,8 +215,10 @@ a{
     margin-top: -8rem;
     background-color: rgba(0, 0, 0, 0.97);
     border: .4rem groove rgb(226, 226, 226);
+    animation: textbox-landing 1s linear ;
 
 }
+
 
 
 /* THIS IS JUST FOR THE 3D TEXT */
@@ -229,15 +231,13 @@ a{
     letter-spacing: 0.2rem;
     font-size: 4em;
     color: rgb(255, 255, 255);
-    text-shadow: 0rem 0rem 4rem rgb(0, 124, 206);
+    text-shadow: 0rem 0rem .15rem rgb(0, 124, 206);
     -webkit-text-fill-color: rgb(255, 255, 255);
     -webkit-text-stroke: rgb(0, 171, 238);    ;
     -webkit-text-stroke-width: .085rem;
 
 }
-@keyframes cycle{ 
-    
-  }
+
 
 
 /* WE'RE DONE WITH IT AT LAST */
@@ -258,6 +258,65 @@ a{
     position: relative;
     color: white;
 }
+
+/*   KEYFRAMES SECTION    */
+
+@keyframes textbox-landing { 
+    0%{ top: 2.5vh; }
+    5%{ top: 5vh; }
+    10%{ top: 7.5vh; }
+    15%{ top: 10vh; }
+    20%{ top: 12.5vh; }
+    25%{ top: 15vh; }
+    30%{ top: 17.5vh; }
+    35%{ top: 20vh; }
+    40%{ top: 22.5vh; }
+    45%{ top: 25vh; }
+    50%{ top: 27.5vh; }
+    55%{ top: 30vh; }
+    60%{ top: 32.5vh; }
+    65%{ top: 35vh; }
+    70%{ top: 37.5vh; }
+    75%{ top: 40vh; }
+    80%{ top: 42.5vh; }
+    85%{ top: 45vh; }
+    90%{ top: 47.5vh; }
+    95%{ top: 52.5vh; }
+    100%{ top: 50vh;}    
+ }
+
+
+@keyframes textbox-landing-1 { 
+    0%{ top: 2.5vh; }
+    5%{ top: 5vh; }
+    10%{ top: 7.5vh; }
+    15%{ top: 10vh; }
+    20%{ top: 12.5vh; }
+    25%{ top: 15vh; }
+    30%{ top: 17.5vh; }
+    35%{ top: 20vh; }
+    40%{ top: 22.5vh; }
+    45%{ top: 25vh; }
+    50%{ top: 27.5vh; }
+    55%{ top: 30vh; }
+    60%{ top: 32.5vh; }
+    65%{ top: 35vh; }
+    70%{ top: 37.5vh; }
+    75%{ top: 42.5vh; }
+    80%{ top: 43vh; }
+    85%{ top: 45.5vh; }
+    90%{ top: 43vh; }
+    95%{ top: 44.25vh; }
+    100%{ top: 43vh;}    
+ }
+
+
+
+
+
+
+
+/* END OF KEYFRAMES */
 
 
 
@@ -314,6 +373,7 @@ a{
 
     .text-on-video{
         top: 43vh;
+        animation: textbox-landing-1 1.5s linear ;
     }
 
 }
